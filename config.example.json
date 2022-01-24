@@ -1,0 +1,12 @@
+{
+  "token": "yourtoken™",
+  "guildID": "yourguildid",
+  "requiredRole": "roleForUsersWithDID",
+  "users": [
+    {
+      "id": "userID",
+      "format": "-{{name}} # Format in which the user names their identity",
+      "names": ["Max # Available names of the user", "Alex"]
+    }
+  ]
+}
