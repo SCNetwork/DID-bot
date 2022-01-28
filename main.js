@@ -52,7 +52,7 @@ client.on('messageCreate', async (msg) => {
     }
     content = content + msg.content.replace(regEx, '');
     for (const attachment of msg.attachments.values()) {
-        content = content + '\n' + attachment.url;
+        content = content + '\n' + attachment.proxyURL;
     }
     await w.send(content, [], {parse: []});
     await msg.delete();
